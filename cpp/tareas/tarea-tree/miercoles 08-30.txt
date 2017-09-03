@@ -1,0 +1,11 @@
+Binary search tree
+==================
+
+Tarea: Implementar arbol BlackRed tree
+
+CMake
+======
+
+Descargar googletest
+ahora tenemos q crear el build usando cmake -G "Unix Makefiles"
+y luego make

@@ -1,0 +1,16 @@
+Para el miercoles 30
+======================
+
+Implementar VariantQueue FIFO:
+Hints: podemos usar un arraylist o el linkedlist.
+
+struct VariantQueue;
+
+typedef VariantQueue VQ;
+
+void init_queue(VQ* q);
+void enqueue_int(VQ* q, int n);
+void enqueue_string(VQ* q, const char* s);
+Variant dequeue(VQ* q);
+int is_queue_empty(const VQ* q);
+void release_queue(VQ* q);
